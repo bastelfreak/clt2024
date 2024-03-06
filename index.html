@@ -1396,10 +1396,11 @@ We implemented this in github actions.
 * CI Matrix generation
 
 * `jq .requirements[0] metadata.json`
+
 ```json
 {
   "name": "puppet",
-  "version_requirement": ">= 6.1.0 < 8.0.0"
+  "version_requirement": ">= 7.0.0 < 9.0.0"
 }
 ```
 
@@ -1432,20 +1433,22 @@ count: false
 * CI Matrix generation
 
 * `jq .requirements[0] metadata.json`
+
 ```json
 {
   "name": "puppet",
-  "version_requirement": ">= 6.1.0 < 8.0.0"
+  "version_requirement": ">= 7.0.0 < 9.0.0"
 }
 ```
 
 * `jq .operatingsystem_support[0] metadata.json`
+
 ```json
 {
-  "operatingsystem": "RedHat",
+  "operatingsystem": "Debian",
   "operatingsystemrelease": [
-    "6",
-    "7"
+    "11",
+    "12"
   ]
 }
 ```
@@ -1510,7 +1513,7 @@ concurrency:
 jobs:
   puppet:
     name: Puppet
-    uses: voxpupuli/gha-puppet/.github/workflows/basic.yml@v1
+    uses: voxpupuli/gha-puppet/.github/workflows/beaker.yml@v2
 ```
 ]
 
