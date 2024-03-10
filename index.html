@@ -283,7 +283,7 @@ class: center, middle, inverseold
 
 class: center, middle, inverse
 
-# What is<br/> Puppet?
+# Was ist<br/> Puppet?
 
 ???
 
@@ -292,7 +292,7 @@ class: center, middle, inverse
 
 .left-column[
 ## Puppet
-### What?
+### Was?
 ]
 
 .right-column[
@@ -308,13 +308,13 @@ class: center, middle, inverse
 count: false
 .left-column[
 ## Puppet
-### What?
+### Was?
 ]
 
 .right-column[
 * Infrastructure as Code (IaC) Software
 
-* Brings its own declarative Language, Puppet DSL
+* Eigene deklarative Sprache, Puppet DSL
 
 ]
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -327,15 +327,15 @@ count: false
 count: false
 .left-column[
 ## Puppet
-### What?
+### Was?
 ]
 
 .right-column[
 * Infrastructure as Code (IaC) Software
 
-* Brings its own declarative Language, Puppet DSL
+* Eigene deklarative Sprache, Puppet DSL
 
-* Invented/Owned by Puppet Inc (acquired by Perforce)
+* Erfunden/entwickelt von Puppet Inc (jetzt Perforce)
 
 ]
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -347,17 +347,17 @@ count: false
 count: false
 .left-column[
 ## Puppet
-### What?
+### Was?
 ]
 
 .right-column[
 * Infrastructure as Code (IaC) Software
 
-* Brings its own declarative Language, Puppet DSL
+* Eigene deklarative Sprache, Puppet DSL
 
-* Invented/Owned by Puppet Inc (acquired by Perforce)
+* Erfunden/entwickelt von Puppet Inc (jetzt Perforce)
 
-* Apache 2 license (with CLA)
+* Apache 2 Lizenz (mit CLA)
 
 ]
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -368,7 +368,7 @@ count: false
 ---
 .left-column[
 ## Puppet
-### What?
+### Was?
 ### How?
 ]
 
@@ -1376,7 +1376,7 @@ count: false
 ]
 
 .right-column[
-* CI Matrix generation
+* CI Matrix Generator
 ![img](ciflow.svg)
 
 ]
@@ -1402,7 +1402,7 @@ We implemented this in github actions.
 ]
 
 .right-column[
-* CI Matrix generation
+* CI Matrix Generator
 
 * `jq .requirements[0] metadata.json`
 
@@ -1414,6 +1414,8 @@ We implemented this in github actions.
 ```
 
 ]
+
+???
 
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
 .footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
@@ -1439,7 +1441,7 @@ count: false
 ]
 
 .right-column[
-* CI Matrix generation
+* CI Matrix Generator
 
 * `jq .requirements[0] metadata.json`
 
@@ -1482,9 +1484,9 @@ count: false
 ]
 
 .right-column[
-* CI Matrix generation
+* CI Matrix Generator
 
-* It is documented! [github.com/voxpupuli/gha-puppet](https://github.com/voxpupuli/gha-puppet#puppet-github-actions)
+* Doku: [github.com/voxpupuli/gha-puppet](https://github.com/voxpupuli/gha-puppet#puppet-github-actions)
 ]
 
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -1495,6 +1497,8 @@ count: false
 As mentioned, documentation is important, the whole setup is FOSS and runs on GitHub actions, can be ported to gitlab
 ---
 
+count: false
+
 .left-column[
 ## Vox Pupuli
 ### What?
@@ -1504,11 +1508,11 @@ As mentioned, documentation is important, the whole setup is FOSS and runs on Gi
 ]
 
 .right-column[
-* CI Matrix generation
+* CI Matrix Generator
 
-* It is documented! [github.com/voxpupuli/gha-puppet](https://github.com/voxpupuli/gha-puppet#puppet-github-actions)
+* Doku: [github.com/voxpupuli/gha-puppet](https://github.com/voxpupuli/gha-puppet#puppet-github-actions)
 
-* It's a shared worflow and others can use it!
+* Wiederbenutzbarer GitHub Workflow
 
 ```yaml
 name: CI
@@ -1543,13 +1547,13 @@ just in case you develop modules on github, you can reuse our workflow
 ]
 
 .right-column[
-* CI Matrix generation
+* CI Matrix Generator
 
-* It is documented! [github.com/voxpupuli/gha-puppet](https://github.com/voxpupuli/gha-puppet#puppet-github-actions)
+* Doku: [github.com/voxpupuli/gha-puppet](https://github.com/voxpupuli/gha-puppet#puppet-github-actions)
 
-* It's a shared worflow and others can use it!
+* Wiederbenutzbarer GitHub Workflow
 
-* Everything can be run locally: [voxpupuli.org/docs/how_to_run_tests](https://voxpupuli.org/docs/how_to_run_tests/)
+* Alle Checks und Tests können auch lokal ausgeführt werden [voxpupuli.org/docs/how_to_run_tests](https://voxpupuli.org/docs/how_to_run_tests/)
 ]
 
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -1567,15 +1571,15 @@ count: false
 ]
 
 .right-column[
-* CI Matrix generation
+* CI Matrix Generator
 
-* It is documented! [github.com/voxpupuli/gha-puppet](https://github.com/voxpupuli/gha-puppet#puppet-github-actions)
+* Doku: [github.com/voxpupuli/gha-puppet](https://github.com/voxpupuli/gha-puppet#puppet-github-actions)
 
-* It's a shared worflow and others can use it!
+* Wiederbenutzbarer GitHub Workflow
 
-* Everything can be run locally: [voxpupuli.org/docs/how_to_run_tests](https://voxpupuli.org/docs/how_to_run_tests/)
+* Alle Checks und Tests können auch lokal ausgeführt werden [voxpupuli.org/docs/how_to_run_tests](https://voxpupuli.org/docs/how_to_run_tests/)
 
-* Add a CONTRIBUTING.md to a module
+* Jedes Repository hat eine CONTRIBUTING.md
 ]
 
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -1596,9 +1600,10 @@ Thats a github feature. when you open a PR and the file is present, github will 
 ]
 
 .right-column[
-* Each project has some boilerplate stuff
 
-  * Rakefile, directory structure, CONTRIBUTING.md
+* Jedes Projekt hat Boilerplate Dateien
+
+  * Rakefile, Verzeichnissstruktur, CONTRIBUTING.md
 ]
 
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -1617,15 +1622,17 @@ count: false
 ]
 
 .right-column[
-* Each project has some boilerplate stuff
 
-  * Rakefile, directory structure, CONTRIBUTING.md
+* Jedes Projekt hat Boilerplate Dateien
 
-* modulesync was developed by Puppet Inc, moved to Vox Pupuli
+  * Rakefile, Verzeichnissstruktur, CONTRIBUTING.md
 
-* It takes a config file + templates, throws it into every modules git repo
+* `modulesync`; Open Source Projekt von Vox Pupuli
 
-* Source Code: [github.com/voxpupuli/modulesync](https://github.com/voxpupuli/modulesync#modulesync)
+* Templates + Konfigurationsdateien auf eine Liste von Git Repositorys anwenden
+
+
+* Quellcode: [github.com/voxpupuli/modulesync](https://github.com/voxpupuli/modulesync#modulesync)
 ]
 
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -1650,7 +1657,7 @@ count: false
 ]
 
 .right-column[
-* Our config repo: [github.com/voxpupuli/modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs)
+* modulesync Configs: [github.com/voxpupuli/modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs)
 ![img](modulesync.png)
 ]
 
@@ -1842,18 +1849,18 @@ or need a consultant? want to talk about community or scaling?
 
 .left-column[
 ## Vox Pupuli
-### Conclusion
+### Fazit
+### Kontakt
 ]
 .right-column[
-* IRC #voxpupuli on Libera.Chat
+* IRC: [Libera.Chat/#voxpupuli](https://web.libera.chat/?#voxpupuli)
 
-* Mailinglist: voxpupuli@groups.io
+* Mailingliste: [voxpupuli@groups.io](mailto:voxpupuli@groups.io)
 
-* For feedback: `bastelfreak` on <a href="https://slack.puppet.com/">slack.puppet.com</a>/Libera.Chat IRC or [tim@bastelfreak.de](mailto:tim@bastelfreak.de)
+* Feedback: [tim@bastelfreak.de](mailto:tim@bastelfreak.de)
 
-* This talk and previous ones: <a href='https://github.com/bastelfreak/talks'>github.com/bastelfreak/talks</a>
+* Slideset und weitere Vorträge: <a href='https://github.com/bastelfreak/talks'>github.com/bastelfreak/talks</a>
 
-### Thanks for your attention!
 ]
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
 .footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
@@ -1862,21 +1869,22 @@ or need a consultant? want to talk about community or scaling?
 
 .left-column[
 ## Vox Pupuli
-### Conclusion
+### Fazit
+### Kontakt
 ### Link Sammlung
 ]
 .right-column[
-* Our Website! [voxpupuli.org/docs/](https://voxpupuli.org/docs/)
+* Unsere Website: [voxpupuli.org/docs/](https://voxpupuli.org/docs/)
 
 * CI Setup: [github.com/voxpupuli/gha-puppet](https://github.com/voxpupuli/gha-puppet#puppet-github-actions)
 
-* unit tests: [github.com/voxpupuli/voxpupuli-test](https://github.com/voxpupuli/voxpupuli-test#voxpupuli-test-gem)
+* Unit Tests: [github.com/voxpupuli/voxpupuli-test](https://github.com/voxpupuli/voxpupuli-test#voxpupuli-test-gem)
 
-* Acceptance tests: [github.com/voxpupuli/voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance#voxpupuli-acceptance-gem)
+* Acceptance Tests: [github.com/voxpupuli/voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance#voxpupuli-acceptance-gem)
 
-* Release tooling: [github.com/voxpupuli/voxpupuli-release](https://github.com/voxpupuli/voxpupuli-release#vox-pupuli-release-gem)
+* Release Tooling: [github.com/voxpupuli/voxpupuli-release](https://github.com/voxpupuli/voxpupuli-release#vox-pupuli-release-gem)
 
-* Our modulesync_config repo: [github.com/voxpupuli/modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs)
+* modulesync_config: [github.com/voxpupuli/modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs)
 ]
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
 .footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
