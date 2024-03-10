@@ -50,6 +50,7 @@
       .remark-slide-content {
         background-image: url(blue-skies.jpg);
         background-size: cover;
+        font-size: 26px;
       }
       .remark-slide-content h1 {
         font-size: 3em;
@@ -263,17 +264,15 @@ class: center, middle, inverseold
 
 * Tim 'bastelfreak' Meusel
 
-* Puppet Contributor since 2012
+* Bei [Vox Pupuli](https://voxpupuli.org/) aktiv seit 2015
 
-* Merging stuff on [Vox Pupuli](https://voxpupuli.org/) (Puppet Community) since 2015
+* Für einen sehr kleinen lokalen Hoster gearbeitet
 
-* Worked some time for a very small, local, hoster
+* Vox Pupuli Project Management Committee Mitglied
 
-* Vox Pupuli Project Management Committee member
+* Wohnhaft in Köln
 
-* Living in Cologne, Germany
-
-* Senior IT Automation Consultant at [betadots](https://betadots.de/)
+* Senior IT Automation Consultant für [betadots](https://betadots.de/)
 
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
 ???
@@ -1182,7 +1181,7 @@ count: false
 
 * A styleguide brings more value if you can enforce it
 
-  * puppet-lint, rubocop, metadata-json-lint
+  * puppet-lint, RuboCop, metadata-json-lint
 ]
 
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -1191,7 +1190,7 @@ count: false
 ???
 
 * linters!
-* metadata-json-lint for json, rubocop for ruby files, puppet-lint for puppet DSL
+* metadata-json-lint for json, RuboCop for ruby files, puppet-lint for puppet DSL
 * puppet-lint can be extended with plugins. one plugin for each specific entry in the styleguide
 
 * this makes reviews easier. as a contributor, you don't need to wait for feedback from us. there are tools that can tell you what's wrong. and in most cases how to fix it (autofix). People love that.
@@ -1255,10 +1254,6 @@ count: false
 ]
 
 .right-column[
-* A CI system is important!
-
-  * Provide feedback fast, reduce required review time
-
 * Use code annotations (RuboCop)!
 
 ![img](rubocop.png)
@@ -1269,7 +1264,7 @@ count: false
 
 ???
 
-* example for rubocop. tells you the line, what kind of violation and a link to documentation
+* example for RuboCop. tells you the line, what kind of violation and a link to documentation
 * turns out people love that!
 * this enables people to work on their own most of the time, with a very short feedback loop
 
@@ -1284,10 +1279,6 @@ count: false
 ]
 
 .right-column[
-* A CI system is important!
-
-  * Provide feedback fast, reduce required review time
-
 * Use code annotations (RuboCop, puppet-lint)!
 
 ![img](puppetlint.png)
@@ -1316,10 +1307,6 @@ count: false
 ]
 
 .right-column[
-* A CI system is important!
-
-  * Provide feedback fast, reduce required review time
-
 * Use code annotations (RuboCop, puppet-lint, rspec-puppet)!
 
 ![img](rspec.png)
@@ -1335,6 +1322,28 @@ count: false
 
 ---
 
+.left-column[
+## Vox Pupuli
+### What?
+### Who?
+### Why?
+### How?
+]
+
+.right-column[
+* Use code annotations (RuboCop, puppet-lint, rspec-puppet, Beaker)!
+
+![img](beaker.png)
+]
+
+<a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+
+???
+
+* Beaker macht acceptance testing
+
+---
 .left-column[
 ## Vox Pupuli
 ### What?
@@ -1380,7 +1389,7 @@ count: false
 We implemented this in github actions.
 * we start from quick checks to slower checks
 * first validate the code. puppet code, ruby code, if the syntax is valid
-* the linting and formatting. that's rubocop/puppet-lint mentioned earlier
+* the linting and formatting. that's RuboCop/puppet-lint mentioned earlier
 * then we generate a CI matrix
 ---
 
@@ -1653,26 +1662,16 @@ count: false
 
 class: center, middle, inverse
 
-# The<br/> Conclusion
+# Fazit &<br/> Zusammenfassung
 
 ---
 .left-column[
 ## Vox Pupuli
-### Conclusion
+### Fazit
 ]
 .right-column[
-* Document how your team works
 
-* Try to develop publicly, even corporate code
-
-* Document your style guide
-
-* Document your projects
-
-* Try to reduce boilerplate code
-
-* Manage boilerplate code in a central place
-
+* Dokumentiert wie euer Team arbeitet
 ]
 
 <a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
@@ -1680,9 +1679,139 @@ class: center, middle, inverse
 
 ---
 
+count: false
+
 .left-column[
 ## Vox Pupuli
-### Conclusion
+### Fazit
+]
+.right-column[
+
+* Dokumentiert wie euer Team arbeitet
+
+* Entwickelt öffentlich, auch Firmencode
+]
+
+<a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+
+---
+
+count: false
+
+.left-column[
+## Vox Pupuli
+### Fazit
+]
+.right-column[
+
+* Dokumentiert wie euer Team arbeitet
+
+* Entwickelt öffentlich, auch Firmencode
+
+* Dokumentiert euren Styleguide
+
+]
+
+<a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+
+???
+
+* habt überhaupt einen stylgeguide
+* dokumentiert warum ihr euch für style X entschieden habt
+* bleibt möglichst nah am upstream styleguide
+* dokumentiert wenn ihr davon abweicht
+
+---
+
+count: false
+
+.left-column[
+## Vox Pupuli
+### Fazit
+]
+.right-column[
+
+* Dokumentiert wie euer Team arbeitet
+
+* Entwickelt öffentlich, auch Firmencode
+
+* Dokumentiert euren Styleguide
+
+* Dokumentiert eure Projekte
+]
+
+<a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+
+???
+
+* Ist die dokumentation gut genug das sich ein neuer mitarbeiter eigenständig einarbeiten kann?
+
+* Sind externe user, die nicht bei euch arbeiten, in der lage die doku zu finden und zu verstehen?
+
+---
+
+count: false
+
+.left-column[
+## Vox Pupuli
+### Fazit
+]
+.right-column[
+
+* Dokumentiert wie euer Team arbeitet
+
+* Entwickelt öffentlich, auch Firmencode
+
+* Dokumentiert euren Styleguide
+
+* Dokumentiert eure Projekte
+
+* Minimiert Boilerplate Code
+
+]
+
+<a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+
+???
+
+---
+
+count: false
+
+.left-column[
+## Vox Pupuli
+### Fazit
+]
+.right-column[
+
+* Dokumentiert wie euer Team arbeitet
+
+* Entwickelt öffentlich, auch Firmencode
+
+* Dokumentiert euren Styleguide
+
+* Dokumentiert eure Projekte
+
+* Minimiert Boilerplate Code
+
+* Verwaltet Boilerplate Code zentral
+
+]
+
+<a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+
+???
+
+---
+
+.left-column[
+## Vox Pupuli
+### Fazit
 ]
 .right-column[
 * We have great tooling and automation
@@ -1731,12 +1860,10 @@ or need a consultant? want to talk about community or scaling?
 
 ---
 
-count: false
-
 .left-column[
 ## Vox Pupuli
 ### Conclusion
-### Link collection
+### Link Sammlung
 ]
 .right-column[
 * Our Website! [voxpupuli.org/docs/](https://voxpupuli.org/docs/)
