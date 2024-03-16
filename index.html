@@ -375,6 +375,8 @@ count: false
 .right-column[
 Beispiel Klasse für nginx
 ```puppet
+\# @summary configures nginx in a bad way
+\# @param content the whole nginx config
 class nginx (
   Sensitive[String[1]] $content,
 ) {
@@ -412,7 +414,30 @@ class nginx (
 
   * glorifiziertes .tar.gz Archiv
 
-* Ähnlich eines Ruby Gems oder Python Paket
+* Ähnlich eines Ruby Gems oder Python Paketes
+
+]
+<a href='https://betadots.de' alt='company website betadots'><img src="logo-1181x1181.png" alt="drawing" style="position: fixed; bottom: 12px; left: 20px; width: 100px;"/></a>
+.footnote[[@bastelsblog](https://twitter.com/bastelsblog) for [@voxpupuliorg](https://twitter.com/voxpupuliorg)]
+
+???
+
+---
+
+count: false
+
+.left-column[
+## Puppet
+### Was?
+### Wie?
+]
+
+.right-column[
+* Ein oder mehrere Klassen bilden ein Puppet Modul
+
+  * glorifiziertes .tar.gz Archiv
+
+* Ähnlich eines Ruby Gems oder Python Paketes
 
 * Meistens lebt ein Modul in einem Git(Hub) Repo
 
