@@ -1,36 +1,37 @@
-# Vox Pupuli - Behind every successful open source project is a vibrant community
+# Wie man eine Open Source Community aufbaut und lebendig hält
 
-## How to grow an online community to over 100 people managing over 250 projects
+* Standard, 35 to 45 minutes plus 10 minutes diѕcussion
+* Link zur Konferenz: [chemnitzer.linux-tage.de/2024/en/programm/beitrag/257](https://chemnitzer.linux-tage.de/2024/en/programm/beitrag/257)
+* Online Version: [bastelfreak.de/clt2024/#1](https://bastelfreak.de/clt2024/#1)
+* Git Repo: [github.com/bastelfreak/clt2024](https://github.com/bastelfreak/clt2024?tab=readme-ov-file#vox-pupuli---behind-every-successful-open-source-project-is-a-vibrant-community)
+* Recording: [media.ccc.de/v/clt24-257-wie-man-eine-open-source-community-aufbaut-und-lebendig-halt](https://media.ccc.de/v/clt24-257-wie-man-eine-open-source-community-aufbaut-und-lebendig-halt)
+* PDF: [Vox Pupuli - Wie man eine Open Source Community aufbaut und lebendig hält.pdf](https://github.com/bastelfreak/talks/blob/master/Vox%20Pupuli%20-%20Wie%20man%20eine%20Open%20Source%20Community%20aufbaut%20und%20lebendig%20h%C3%A4lt.pdf)
 
-This is a talk from [bastelfreak](https://twitter.com/BastelsBlog) about why
-open source matters, why you should contribute to Vox Pupuli and what the
-[roles and profiles pattern](https://puppet.com/docs/puppet/7/designing_system_configs_roles_and_profiles.html)
-is.
+## Abstract
 
-This talk was presented at [Chemnitzer Linux Tage 2024](https://chemnitzer.linux-tage.de/2024/en/programm/beitrag/257).
+Was passiert wenn kritische Open Source Projekte nicht mehr gepflegt werden?
 
-## Short abstract
+Vox Pupuli ist eine Gruppe aus über 210 Puppet Modulen/Tools Autoren. Sie alle
+arbeiten zusammen daran, eine anhaltende Weiterentwicklung der über 300 Open
+Source Modulen/Tools sicherzustellen. Das Ziel ist es aufgegebene Projekte zu
+adoptieren und einzelne Entwickler zu einem Kollektiv zu bündeln um effizienter
+arbeiten zu können.
 
-What happens when critical open source projects stop being maintained?
+In diesem Vortrag geht es darum was Vox Pupuli ist, wie und warum es
+funktioniert und warum ihr mitmachen sollt! Außerdem möchten wir besprechen
+wie wir mit Contributions im großen Maßstab umgehen.
 
-Vox Pupuli is a group of more than 180 puppet module/tooling/documentation authors, all working together to ensure a continuing development process. Our goal is to adopt abandoned FOSS projects from the Puppet ecosystem and to unite lonely FOSS developers.
+## Brief Summary 2
 
-In this talk we will do a deep dive into what Vox Pupuli is, how we build the community and keep it running and why you should participate! We will also discuss how we manage contributions at large scale.
+Hier die Zusammenfassung/weitere Infos zum Vortrag:
 
-## Long abstract
+Vox Pupuli ist eine lose Gruppierung von über 180 Entwicklern. Wir arbeiten alle mit Puppet, oder haben Tools für das Puppet ökosystem entwickelt oder wir kennen uns mit Software aus, welche mit Puppet automatisiert wird ("Domain Specific Experts"). Irgendwie haben wir es über die Jahre geschafft eine Community aufzubauen die organisch wächst.
 
-Running a large infrastructure isn't easy. But how do you handle contributions from multiple teams or many individuals?
+Uns eint das wir keine Lust haben allein an Projekten zu arbeiten oder fremde Open Source Projekte nutzen wollten welche dann aber kaputt oder verweist waren. Dies wollen wir verhindern. Wie normale Firmen auch kämpfen wir mit den gleichen Problemen: Es gibt zu viel Arbeit für zu wenig Leute. Wir haben es aber geschafft viel der Arbeit zu automatisieren und Standards für das Puppet Ökosystem geschaffen die auch von Puppet Inc und anderen großen Organisationen übernommen worden sind.
 
-Contributors expect fast feedback for issues and pull request and the time from every maintainer/reviews is very limited. Vox Pupuli is a Puppet focused community that maintains over 180 puppet modules and over 20 gems. The talk will guide you through the challenges that Vox Pupuli surfaced and how we are solving it. You will learn how Vox Pupuli works and how the workflows can be adopted to other Open Source communitys and also company-internal teams.
+In dem Vortrag möchte ich vermitteln wie wir uns organisieren, wie wir effizient mit GitHub arbeiten, wie onboarding für neue Mitglieder funktioniert und wie wir untereinander kommunizieren. Es geht hier nicht spezifisch um Puppet. In den letzten Jahren habe ich auf mehreren Konferenzen Vox Pupuli vorgestellt. Ein älterer Satz an Slides als Beispiel: https://bastelfreak.de/scale20x/#1
 
-We invite everybody to participate. We will get into the details about how you can interact/contribute/benefit. We will also tell you some stories about all the awesome stuff that's happening in the community that creates a very welcoming place for people!
-
-* You can find the online version here: [bastelfreak.de/scale20x](https://bastelfreak.de/clt2024/#1)
-* And the pdf here: [What_Open_Source_can_do_for_your_business.pdf](https://bastelfreak.de/clt2024/What_Open_Source_can_do_for_your_business.pdf)
-* Online schedule: https://www.socallinuxexpo.org/scale/20x/presentations/vox-pupuli-behind-every-successful-open-source-project-vibrant-community
-* Recording:
-
-* You can find more talks from bastelfreak in his [repository](https://github.com/bastelfreak/talks) (he is also available for Puppet consulting)
+* Weitere Vorträge gibt es in meinem Git [repository](https://github.com/bastelfreak/talks). Ich bin auch für inhouse Trainings und Puppet Consulting verfügbar.
 
 ## License
 
